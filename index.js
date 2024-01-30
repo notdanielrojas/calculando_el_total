@@ -1,7 +1,8 @@
-precio = 400000; /* Valor Preico */
+precio = 400000; /* Valor Precio*/
 
 precioSpan = document.querySelector(".precio-inicial"); /* Selecciono elemento DOM ".precio-inicial" */
-precioSpan.innerHTML = precio;
+precioSpan.innerHTML = precio;/* Modificado HTML */
+
 
 function botonAumentar () {
     cantidadSpan = document.querySelector(".cantidad"); /* Selecciono elemento DOM '.cantidad' */
