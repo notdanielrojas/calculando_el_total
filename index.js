@@ -11,7 +11,6 @@ function botonAumentar () {
     cantidadSpan.innerHTML = cantidad; /* Modificado HTML */
 
     totalSpan = document.querySelector(".valor-total"); /* Selecciono elemento DOM ".valor-total"*/
-    precio = Number(document.querySelector(".precio-inicial").innerHTML); /* Selecciono y transformo DOM ".precio-inicial" de String a Número */
     total = cantidad * precio; /* Valor asignado */
     totalSpan.innerHTML = total; /* Modificado HTML */ 
 }
@@ -23,9 +22,7 @@ function botonDisminuir () {
     cantidad = Math.max(0, cantidad); /* Impide que el valor sea negativo */
     cantidadSpan.innerHTML = cantidad; /* Modificado HTML */
 
-
     totalSpan = document.querySelector(".valor-total"); /* Selecciono elemento DOM ".valor-total"*/
-    precio = Number(document.querySelector(".precio-inicial").innerHTML); /* Selecciono y transformo DOM '.precio-inicial' de String a Número */
     total = cantidad * precio; /* Valor asignado */
     totalSpan.innerHTML = total; /* Modificado HTML */  
     
